@@ -12,7 +12,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           filename: metrics.svg
-          base: ""
+          base: header
           token: ${{ secrets.PROFILE_KEY }}
           optimize: svg
           experimental_features: --optimize-svg
