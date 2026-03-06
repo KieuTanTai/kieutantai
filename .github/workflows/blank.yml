@@ -26,6 +26,7 @@ jobs:
           retries_output_action: 5
           retries_delay_output_action: 120
           base: header
+          use_prebuilt_image: yes
           plugin_isocalendar: yes
           plugin_languages: yes
           plugin_stars: yes
