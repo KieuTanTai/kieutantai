@@ -23,5 +23,4 @@ jobs:
           use_prebuilt_image: yes
           plugin_activity: yes
           plugin_activity_limit: 5
-          plugin_activity_days: 0
-          plugin_activity_filter: star, public, member, ref/create, push
+          plugin_activity_filter: star, public, member

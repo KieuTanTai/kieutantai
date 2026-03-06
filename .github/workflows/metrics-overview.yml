@@ -28,5 +28,6 @@ jobs:
           plugin_isocalendar: yes
           plugin_languages: yes
           plugin_stars: yes
+          plugin_lines: yes
           config_order: base.header, base.activity, base.repositories, base.community, base.metadata, isocalendar, languages, stars, base.community, base.metadata
           config_presets: "@ocean-blue"
