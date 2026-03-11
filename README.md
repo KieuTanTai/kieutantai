@@ -1,7 +1,6 @@
-## Hi there 👋
-<picture>
-  <img src="/metrics.svg" alt="Metrics">
-</picture>
+# Hi there 👋
+
+![Metrics](/metrics.svg)
 <!--
 **KieuTanTai/kieutantai** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
