@@ -1,21 +1,25 @@
 name: Metrics Introduction
 
 on:
-    schedule:
-        - cron: "0 0 * * *"
+    schedule: [{ cron: "0 0 * * *" }]
     workflow_dispatch:
-
+    push: { branches: ["master", "main"] }
 jobs:
-    metrics:
+    github-metrics-overview:
         runs-on: ubuntu-latest
+        permissions:
+            contents: write
         steps:
-            - uses: actions/checkout@v3
-
-            - name: Generate metrics
-              uses: lowlighter/metrics@latest
+            - uses: lowlighter/metrics@latest
               with:
                   filename: metrics.plugin.introduction.svg
-                  token: ${{ secrets.GITHUB_TOKEN }}
-                  user: ${{ github.repository_owner }}
                   base: header
+                  token: ${{ secrets.PROFILE_KEY }}
+                  optimize: svg
+                  experimental_features: --optimize-svg
+                  config_timezone: Asia/Bangkok
+                  output_action: commit
+                  committer_branch: main
+                  committer_message: "chore: update metrics overview"
+                  user: github
                   plugin_introduction: yes
