@@ -16,6 +16,5 @@ jobs:
           token: NOT_NEEDED
           plugin_music_token: ${{ secrets.YOUTUBE_KEY }}
           plugin_music: yes
-          plugin_music_mode: playlist
           plugin_music_playlist: https://music.youtube.com/playlist?list=PLdcv4LvyAC23aWRzCOH4lrCxblGpRCzlF
           
