@@ -16,8 +16,8 @@ jobs:
             base: ""
             plugin_screenshot: yes
             plugin_screenshot_title: XKCD of the day
-            plugin_screenshot_url: https://kieutantai.github.io/
-            plugin_screenshot_selector: "#about img"
+            plugin_screenshot_url: https://kieutantai.github.io
+            plugin_screenshot_selector: "#about"
             optimize: svg
             experimental_features: --optimize-svg
             output_action: commit
