@@ -20,7 +20,10 @@ jobs:
           output_action: commit
           committer_branch: main
           committer_message: "chore: update metrics habits facts"
-          use_prebuilt_image: yes
+          retries: 3
+          retries_delay: 300
+          retries_output_action: 5
+          retries_delay_output_action: 120
           plugin_habits: yes
           plugin_habits_facts: yes
           plugin_habits_charts: no
@@ -36,6 +39,10 @@ jobs:
           output_action: commit
           committer_branch: main
           committer_message: "chore: update metrics habits charts"
+          retries: 3
+          retries_delay: 300
+          retries_output_action: 5
+          retries_delay_output_action: 120
           plugin_habits: yes
           plugin_habits_facts: no
           plugin_habits_charts: yes
