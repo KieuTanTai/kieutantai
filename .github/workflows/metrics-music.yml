@@ -1,0 +1,21 @@
+name: Youtube Music - Recently listed
+on:
+  schedule: [{cron: "0 0 * * *"}]
+  workflow_dispatch:
+  push: {branches: ["master", "main"]}
+jobs:
+  github-metrics-music:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.music.svg
+          base: ""
+          token: NOT_NEEDED
+          plugin_music_token: ${{ secrets.YOUTUBE_KEY }}
+          plugin_music: yes
+          plugin_music_mode: recent
+          plugin_music_provider: youtube
+          
