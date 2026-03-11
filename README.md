@@ -17,12 +17,11 @@
 
 ---
 
-## <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4bb.svg" width="32"/> Featured Project — FoodAndDrink
+## <img src="https://cdn.simpleicons.org/githubactions/2DA44E" width="32"/> My Contribution Journey
+> Every green square tells a story — consistency, curiosity, and a love for code.
+> Here's a full view of my GitHub activity over the years.
 
-> A curated app for food lovers — discover recipes, explore drinks, and share your favorite flavors.
-> Built with passion for great UI and smooth user experience.
-
-![Contributions - FoodAndDrink](/metrics.plugin.contributors.contributions.svg)
+![Full Contribution Calendar](/metrics.plugin.calendar.full.svg)
 
 ---
 
@@ -34,11 +33,12 @@
 
 ---
 
-## <img src="https://cdn.simpleicons.org/githubactions/2DA44E" width="32"/> My Contribution Journey
-> Every green square tells a story — consistency, curiosity, and a love for code.
-> Here's a full view of my GitHub activity over the years.
+## <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4bb.svg" width="32"/> Featured Project — FoodAndDrink
 
-![Full Contribution Calendar](/metrics.plugin.calendar.full.svg)
+> A curated app for food lovers — discover recipes, explore drinks, and share your favorite flavors.
+> Built with passion for great UI and smooth user experience.
+
+![Contributions - FoodAndDrink](/metrics.plugin.contributors.contributions.svg)
 
 ---
 
