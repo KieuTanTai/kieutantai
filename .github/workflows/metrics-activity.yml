@@ -16,11 +16,9 @@ jobs:
           token: ${{ secrets.PROFILE_KEY }}
           optimize: svg
           experimental_features: --optimize-svg
-          config_timezone: Asia/Bangkok
           output_action: commit
           committer_branch: main
           committer_message: "chore: update metrics activity"
-          use_prebuilt_image: yes
           plugin_activity: yes
-          plugin_activity_limit: 5
-          plugin_activity_filter: star, public, member
+          plugin_activity_limit: 8
+          plugin_activity_filter: star, public, member, issue, pr, release, fork, review, ref/create
