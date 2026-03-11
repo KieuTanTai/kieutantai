@@ -21,5 +21,5 @@ jobs:
                   output_action: commit
                   committer_branch: main
                   committer_message: "chore: update metrics introduction"
-                  user: kieu_tai
+                  user: kieutantai
                   plugin_introduction: yes
