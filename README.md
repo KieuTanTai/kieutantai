@@ -2,7 +2,7 @@
 
 > A passionate developer who loves building meaningful products and exploring new technologies.
 
-<a href="https://kieutantai.github.io"><img src="https://img.shields.io/badge/Portfolio-kieutantai.github.io-4FC08D?style=flat&logo=vuedotjs&logoColor=white" style="border:none;outline:none;text-decoration:none"/></a> [kieutantai.github.io](https://kieutantai.github.io) — Built with Vue.js
+<img src="https://img.shields.io/badge/Portfolio-kieutantai.github.io-4FC08D?style=flat&logo=vuedotjs&logoColor=white" style="border:none;outline:none;text-decoration:none"/></a> [kieutantai.github.io](https://kieutantai.github.io) — Built with Vue.js
 
 ---
 
