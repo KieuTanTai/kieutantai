@@ -23,6 +23,6 @@ jobs:
             template: repository
             plugin_contributors: yes
             plugin_contributors_contributions: yes
-            repo: FoodAndDrink
+            repo: py_smartdocs
           
         
