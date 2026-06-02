@@ -23,14 +23,6 @@
 
 ---
 
-## Portfolio Preview
-
-> A live snapshot of my portfolio website.
-
-![Screenshot](/metrics.plugin.screenshot.svg)
-
----
-
 ## Featured Project — Py Smartdocs
 
 > Built with passion for great UI and smooth user experience.
